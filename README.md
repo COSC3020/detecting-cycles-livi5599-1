@@ -18,7 +18,7 @@ answer, including your reasoning, to this markdown file.
 
 -----
 
-My implementation has a worst-case big $\Theta(n^2)$ complexity.  This comes from the while loop with the nested for loop, as they each have a runtime of big $\Theta(n)$.  I included comments in my code that help show how I got my answer.
+My implementation has a worst-case big $\Theta(V^2)$ complexity, where V is the number of nodes in the given graph.  This comes from the while loop with the nested for loop, as they each have a runtime of big $\Theta(V)$.  I included comments in my code that help show how I got my answer.
 
 -----
 
